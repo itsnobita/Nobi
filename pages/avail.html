@@ -86,15 +86,38 @@ Licence URI: https://www.os-templates.com/template-terms
     <div class="content"> 
       <!-- ################################################################################################ -->
       <div id="gallery">
-     <script src="https://randojs.com/1.0.0.js"></script>
+     <style>
+            #myNumber{
+                font-size:80px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+	color:red;
+            }
+        </style>
+<style>
+            #my{
+                font-size:50px;
+                text-align:center;
+                margin:50px auto;
+                font-family:Arial, sans-serif;
+            }
+        </style>
+        <script src="https://randojs.com/1.0.0.js"></script>
         <script>
             function showRandomNumber(){
-                document.getElementById("myNumber").innerHTML = rando(1, 10);
+                document.getElementById("myNumber").innerHTML = rando(5, 10);
+              color:brwon;
             }
         </script>
-         <body onload="showRandomNumber();">
-           <li>The Number of availability in your area is:</li>
-        <div id="myNumber">
+       
+    </head>
+    <body onload="showRandomNumber();">
+<div id="my">
+<h1>The number of vacancies in your area are</h1>
+</div>
+ <h1 id="myNumber"></h1>
+    </body>
 
 </div>
     </body>

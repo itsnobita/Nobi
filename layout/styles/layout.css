@@ -346,7 +346,7 @@ table a, #comments a{background-color:inherit;}
 
 
 @media screen and (max-width:750px){
-	.imgl, .imgr{display:inline-block; float:none;width:1200px;height:120px; margin:0 0 10px 0;}  
+	.imgl, .imgr{display:inline-block; float:none; margin:0 0 10px 0;}  
 	.fl_left, .fl_right{display:block; float:none;}
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 50px 0; padding:0;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
@@ -362,7 +362,10 @@ table a, #comments a{background-color:inherit;}
 
 	#footer{padding-bottom:30px;}/* Not needed, just looks better. Compensates for the grid elements bottom margin when stacked */
 }
-
+   img.imgr{
+  width: 120px;
+  height: auto;
+}
 
 /* Other
 --------------------------------------------------------------------------------------------------------------- */

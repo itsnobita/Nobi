@@ -366,7 +366,10 @@ table a, #comments a{background-color:inherit;}
   width: 120px;
   height: auto;
 }
-
+.bgded{
+width: 50%;
+height: auto;
+}
 /* Other
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:650px){

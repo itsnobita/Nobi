@@ -22,7 +22,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:150px 0; text-align:center;}
+#pageintro{padding:100px 0; text-align:center;}
 
 #pageintro article{display:block; max-width:65%; margin:0 auto;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
@@ -354,13 +354,13 @@ table a, #comments a{background-color:inherit;}
 	#header{text-align:center;}
 	#header #logo{margin:0 0 30px 0;}
 
-	#pageintro{padding:40px 0;}
+	#pageintro{padding:20px 0;}
 	#pageintro article{max-width:none; text-align:left;}
 	#pageintro .heading{font-size:2rem;}
 
 	.sectiontitle{max-width:none; text-align:left;}
 
-	#footer{padding-bottom:30px;}/* Not needed, just looks better. Compensates for the grid elements bottom margin when stacked */
+	#footer{padding-bottom:10px;}/* Not needed, just looks better. Compensates for the grid elements bottom margin when stacked */
 }
    img.imgr{
   width: 120px;

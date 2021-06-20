@@ -22,7 +22,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0; text-align:center;}
+#pageintro{padding:100px 0; text-align:center;}
 
 #pageintro article{display:block; max-width:65%; margin:0 auto;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
